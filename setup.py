@@ -41,7 +41,7 @@ setuptools.setup(
     install_requires=[
         "torch>=1.7.0,!=1.8.0",  # excludes torch v1.8.0
         "onnx",
-        "onnxruntime==1.10.0",
+        "onnxruntime==1.14.0",
         "transformers>4.6.1",
         "progress>=1.5",
         "sentencepiece",
@@ -56,5 +56,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.10",
     ],
 )
